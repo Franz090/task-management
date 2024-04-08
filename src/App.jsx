@@ -184,7 +184,7 @@
               ))}
           </div>
           <div className="w-full md:w-1/3 bg-gray-200 p-4 rounded-lg md:ml-2">
-            <h2 className="text-lg font-bold mb-4">New Done Tasks</h2>
+            <h2 className="text-lg font-bold mb-4">Done Tasks</h2>
             {tasks.done.map((task, index) => (
                 <div key={index} className="mb-2" draggable onDragStart={() => handleDragStart('done', index)}>
                   {task}
