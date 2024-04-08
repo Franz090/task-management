@@ -1,0 +1,1 @@
+1. run this using cmd or terminal using npm run dev or sudo npm run dev if mac user.
